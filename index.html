@@ -3,51 +3,88 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="title" content="">
+        <meta name="og:title" content="">
         <title>Single Page CV</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <meta name="og:description" content="This is a sample Single Page CV">
+        <meta name="keywords" content="Singlepage, CV">
+        <meta name="og:viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="img/Tux.png">
         <style>
             body{
                 font-family: Arial, sans-serif;
                 margin: 50px;
                 padding: 20px;
+                border: 2px solid black;
             }
+            h3{
+                color: rgb(0, 85, 255);
+            }
+            h4{
+                color: green;
+            }
+
         </style>
     </head>
     <body>
-        <h1>Linus Figueroa</h1>
-        <h3>Junior Frontend Developer</h3>
-        <p>
-            123 Your Street <br>
-            Your City, ST 12345 <br>
-            (123) 456-7890 <br>
-            no_reply@example.com
-        </p>
-        <h3>Skills</h3>
-        <p>
-            HTML, CSS, Javascript, Accessibility, Figma to Design,
-            Responsive Web Design, Technical Writing, Presentation
-        </p>
-        <h3>Education</h3>
-        <h2></h2>
-        <p>
-            
-        </p>
-        <h3>Experience</h3>
-        <h2></h2>
-        <p>
+        <header>
+            <h1>Linus Figueroa</h1>
+            <h4>Junior Frontend Developer</h4>
+            <p>
+                123 Your Street <br>
+                Your City, ST 12345 <br>
+                (123) 456-7890 <br>
+                no_reply@gmail.com
+            </p>
+        </header>
+        
+        <section id="Skills">
+            <h4>Skills</h4>
+            <p>
+                HTML, CSS, Javascript, Accessibility, Figma to Design,
+                Responsive Web Design, Technical Writing, Presentation
+            </p>    
+        </section>
 
-        </p>
-        <h2></h2>
-        <p>
+        <section id="Education">
+            <h4>Education</h4>
+            <h3>
+                National University, Dasmariñas - BSCS-ML
+            </h3>
+            <p>
+                August 2022 to June 2027<br>
+                List of exciting things you did at university
+            </p>
+        </section>
 
-        </p>
-        <h3>Across the Internet</h3>
-        <p>
-
-        </p>
-        <script src="" async defer></script>
+        <section id="Experience">
+            <h4>Experience</h4>
+            <h3>Company Name, Location - Job Title</h3>
+            <p>
+                Month 20xx to Month 20xx
+                <ul>
+                    <li>List of Achievements</li>
+                    <li>List of Achievements</li>
+                    <li>List of Achievements</li>
+                </ul>
+                Skills: List of skills used or gained at this company
+            </p>
+            <h3>Company Name, Location - Job Title</h3>
+            <p>
+                Month 20xx to Month 20xx
+                <ul>
+                    <li>List of Achievements</li>
+                    <li>List of Achievements</li>
+                    <li>List of Achievements</li>
+                </ul>
+                Skills: List of skills used or gained at this company
+            </p>  
+        </section>
+        
+        <section id="Links">
+            <h4>Across the Internet</h4>
+            <p>
+                LinkedIn, <a href="https://github.com/dexterrr1133">GitHub - d3xterrr</a>
+            </p>
+        </section>
     </body>
 </html>
